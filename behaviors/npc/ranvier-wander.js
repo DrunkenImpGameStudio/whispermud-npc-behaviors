@@ -1,7 +1,7 @@
 'use strict';
 
 const { Random } = require('rando-js');
-const { Broadcast, Logger } = require('ranvier');
+const { Broadcast, Logger } = require('whispermud-core');
 
 /**
  * An example behavior that causes an NPC to wander around an area when not in combat

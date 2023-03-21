@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B, Logger } = require('ranvier');
+const { Broadcast: B, Logger } = require('whispermud-core');
 
 /**
  * A simple behavior to make an NPC aggressive. Aggressive is defined as attacking after some delay
