@@ -1,6 +1,6 @@
 This bundle is a set of useful NPC behaviors.
 
-## `ranvier-aggro`
+## `aggro`
 
 A simple behavior to make an NPC aggressive. Aggressive is defined as attacking after some delay
 when a player or NPC enters the room. An aggressive NPC will only fixate their attention on one
@@ -22,7 +22,7 @@ Example:
 ```yaml 
       # an NPC that's aggressive towards players
       behaviors:
-        ranvier-aggro:
+        aggro:
           delay: 10
           warnMessage: '%name% snarls angrily.'
           towards:
@@ -31,13 +31,13 @@ Example:
  
       # an NPC that fights enemy NPC squirrels and rabbits
       behaviors:
-        ranvier-aggro:
+        aggro:
            towards:
              players: false
              npcs: ["limbo:squirrel", "limbo:rabbit"]
 ```
 
-## `ranvier-wander`
+## `wander`
 
 An example behavior that causes an NPC to wander around an area when not in combat
 Options:
