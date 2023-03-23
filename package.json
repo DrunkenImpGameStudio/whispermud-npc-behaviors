@@ -1,8 +1,0 @@
-{
-  "name": "whispermud-npc-behaviors",
-  "version": "1.0.0",
-  "description": "",
-  "dependencies": {
-    "rando-js": "^0.2.0"
-  }
-}
